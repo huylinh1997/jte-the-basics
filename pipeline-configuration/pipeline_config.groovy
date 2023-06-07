@@ -1,5 +1,5 @@
 libraries{
-    merge = true
+    gradle
     sonarqube
     ansible
 }
