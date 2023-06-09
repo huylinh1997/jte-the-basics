@@ -6,7 +6,6 @@ libraries{
 
 allow_scm_jenkinsfile = true 
 
-
 application_environments{
     dev{
         ip_addresses = [ "0.0.0.1", "0.0.0.2" ]

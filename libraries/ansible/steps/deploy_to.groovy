@@ -1,8 +1,5 @@
-void call(app_env){
-    stage("Deploy To: ${app_env.long_name}"){
+void call(){
+    stage("Deploy To: ${env.APP_NAME}"){
         println "performing a deployment through ansible.."
-        app_env.ip_addresses.each{ ip ->
-            println "deploying to ${ip}"
-        }
     }
 }

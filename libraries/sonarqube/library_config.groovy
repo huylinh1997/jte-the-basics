@@ -1,0 +1,5 @@
+fields {
+    optional {
+        enabled = Boolean
+    }
+}
