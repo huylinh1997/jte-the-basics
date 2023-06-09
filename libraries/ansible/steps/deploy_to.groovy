@@ -1,5 +1,5 @@
-void call(){
-    stage("Deploy To: ${env.APP_NAME}"){
+void call(environment){
+    stage("Deploy To: ${environment.environment.APP_NAME}"){
         println "performing a deployment through ansible.."
     }
 }
