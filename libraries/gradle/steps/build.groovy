@@ -1,6 +1,5 @@
 void call(){
-    stage("Gradle: Build"){ 
-        def environment = environment.getE
+    stage("Gradle: Build"){
         println "build from the gradle library" 
     }
 
